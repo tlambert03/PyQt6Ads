@@ -2,8 +2,8 @@ import sys
 from pathlib import Path
 from typing import TYPE_CHECKING
 
-import PyQt6Ads as QtAds
 from perspectiveactions import LoadPerspectiveAction, RemovePerspectiveAction
+from PyQt6 import QtAds
 from PyQt6.QtGui import QIcon
 from PyQt6.QtWidgets import (
     QInputDialog,

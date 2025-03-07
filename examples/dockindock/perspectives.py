@@ -6,7 +6,7 @@ import tempfile
 from pathlib import Path
 from typing import ClassVar
 
-import PyQt6Ads as QtAds
+from PyQt6 import QtAds
 from PyQt6.QtCore import QObject, QSettings, pyqtSignal
 
 sys.path.append(str(Path(__file__).resolve().parent))

@@ -1,8 +1,7 @@
 import os
 import sys
 
-import PyQt6Ads as QtAds
-from PyQt6 import uic
+from PyQt6 import QtAds, uic
 from PyQt6.QtCore import QSignalBlocker, Qt
 from PyQt6.QtGui import QAction, QCloseEvent
 from PyQt6.QtWidgets import (

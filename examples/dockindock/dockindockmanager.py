@@ -1,6 +1,6 @@
 from typing import TYPE_CHECKING
 
-import PyQt6Ads as QtAds
+from PyQt6 import QtAds
 from PyQt6.QtCore import QSettings
 from PyQt6.QtGui import QAction
 from PyQt6.QtWidgets import QInputDialog, QLineEdit, QMenu, QMessageBox

@@ -1,6 +1,6 @@
 import sys
 
-import PyQt6Ads as QtAds
+from PyQt6 import QtAds
 from PyQt6.QtCore import qDebug
 from PyQt6.QtGui import QAction, QCloseEvent
 from PyQt6.QtWidgets import QApplication, QMainWindow, QTextEdit

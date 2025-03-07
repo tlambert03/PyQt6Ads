@@ -2,6 +2,9 @@ import runpy
 from pathlib import Path
 from unittest.mock import patch
 
+# here to test that we can import this before importing PyQt6.<anything_else>
+import PyQt6.QtAds  # noqa
+
 import pytest
 from PyQt6.QtWidgets import QApplication
 
